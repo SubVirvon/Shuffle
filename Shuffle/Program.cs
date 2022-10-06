@@ -33,25 +33,17 @@ namespace Shuffle
         static int[] Shuffle(int[] array)
         {
             Random random = new Random();
-            int[] tempArray = new int[array.Length];
-
-            for (int i = 0; i < array.Length; i++)
+            
+            for(int i = 0; i < array.Length - 1; i++)
             {
-                bool isFind = false;
-                
-                while(isFind == false)
-                {
-                    int index = random.Next(0, array.Length);
+                int index = random.Next(i + 1);
+                int tempValue = array[i];
 
-                    if (tempArray[index] == 0)
-                    {
-                        tempArray[index] = array[i];
-                        isFind = true;
-                    }
-                }
+                array[i] = array[index];
+                array[index] = tempValue;
             }
 
-            return tempArray;
+            return array;
         }
     }
 }
