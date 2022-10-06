@@ -1,0 +1,8 @@
+C:\Users\Danii\source\repos\Shuffle\Shuffle\bin\Debug\Shuffle.exe.config
+C:\Users\Danii\source\repos\Shuffle\Shuffle\bin\Debug\Shuffle.exe
+C:\Users\Danii\source\repos\Shuffle\Shuffle\bin\Debug\Shuffle.pdb
+C:\Users\Danii\source\repos\Shuffle\Shuffle\obj\Debug\Shuffle.csproj.AssemblyReference.cache
+C:\Users\Danii\source\repos\Shuffle\Shuffle\obj\Debug\Shuffle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Danii\source\repos\Shuffle\Shuffle\obj\Debug\Shuffle.csproj.CoreCompileInputs.cache
+C:\Users\Danii\source\repos\Shuffle\Shuffle\obj\Debug\Shuffle.exe
+C:\Users\Danii\source\repos\Shuffle\Shuffle\obj\Debug\Shuffle.pdb
