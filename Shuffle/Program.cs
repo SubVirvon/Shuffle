@@ -14,7 +14,7 @@ namespace Shuffle
 
             Console.Write("Массив до перемешивания: ");
             WriteArray(array);
-            array = Shuffle(array);
+            Shuffle(array);
             Console.Write("\nМассив после перемешивания: ");
             WriteArray(array);
             Console.ReadLine();
@@ -30,7 +30,7 @@ namespace Shuffle
             }
         }
 
-        static int[] Shuffle(int[] array)
+        static void Shuffle(int[] array)
         {
             Random random = new Random();
             
@@ -42,8 +42,6 @@ namespace Shuffle
                 array[i] = array[index];
                 array[index] = tempValue;
             }
-
-            return array;
         }
     }
 }
